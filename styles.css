@@ -2,12 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 @media (prefers-color-scheme: white) {
-  body {
-    background-color: white;
-    color: black;
-  }
-}
 body{
+  background-color: white;
+  color: black;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
@@ -16,8 +13,7 @@ body{
   line-height: 1.6;
   max-width: 100%;
   overflow-x: auto;
-  
-  
+} 
 }
 .navbar {
   position: fixed;
